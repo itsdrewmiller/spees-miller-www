@@ -1,0 +1,16 @@
+{
+  "name": "spees-miller/family-website",
+  "description": "Spees-Miller Family WordPress Website",
+  "type": "project",
+  "require": {
+    "php": "^8.0",
+    "ext-gd": "*",
+    "ext-mbstring": "*"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Spees-Miller Family"
+    }
+  ]
+}

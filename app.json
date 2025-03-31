@@ -1,0 +1,60 @@
+{
+  "name": "Spees-Miller Family Website",
+  "description": "A WordPress multisite installation for the Spees-Miller family",
+  "keywords": [
+    "wordpress",
+    "multisite",
+    "family"
+  ],
+  "website": "https://your-production-domain.com/",
+  "repository": "https://github.com/yourusername/spees-miller-www",
+  "success_url": "/",
+  "env": {
+    "WP_HOME": {
+      "description": "WordPress site URL",
+      "value": "https://your-production-domain.com"
+    },
+    "WP_SITEURL": {
+      "description": "WordPress core URL",
+      "value": "https://your-production-domain.com"
+    },
+    "SITE_DOMAIN": {
+      "description": "Domain name without protocol",
+      "value": "your-production-domain.com"
+    },
+    "AUTH_KEY": {
+      "generator": "secret"
+    },
+    "SECURE_AUTH_KEY": {
+      "generator": "secret"
+    },
+    "LOGGED_IN_KEY": {
+      "generator": "secret"
+    },
+    "NONCE_KEY": {
+      "generator": "secret"
+    },
+    "AUTH_SALT": {
+      "generator": "secret"
+    },
+    "SECURE_AUTH_SALT": {
+      "generator": "secret"
+    },
+    "LOGGED_IN_SALT": {
+      "generator": "secret"
+    },
+    "NONCE_SALT": {
+      "generator": "secret"
+    }
+  },
+  "addons": [
+    {
+      "plan": "jawsdb:kitefin"
+    }
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/php"
+    }
+  ]
+}

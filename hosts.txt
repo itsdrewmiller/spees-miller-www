@@ -1,0 +1,8 @@
+# Add these lines to your hosts file (/etc/hosts on Mac/Linux, C:\Windows\System32\drivers\etc\hosts on Windows)
+127.0.0.1 spees-miller.local
+127.0.0.1 www.spees-miller.local
+127.0.0.1 maxwell.spees-miller.local
+127.0.0.1 magnus.spees-miller.local
+127.0.0.1 tycho.spees-miller.local
+127.0.0.1 drew.spees-miller.local
+127.0.0.1 kathleen.spees-miller.local
